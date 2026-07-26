@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOTMS — Download</title>
+<meta name="description" content="SOTMS — Smart Oil Transport Monitoring System. Live GPS tracking, vehicle diagnostics, and fuel & driver analytics for your fleet.">
+<style>
+  :root{
+    --bg:#0E1216; --bg2:#141A20; --card:#1A222B; --line:#26313D;
+    --ink:#EAF1F8; --muted:#93A3B4;
+    --cyan:#29B6F6; --cyan-dk:#0288D1; --drop:#4FC3F7;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .hero{
+    background:
+      radial-gradient(1200px 380px at 50% -60px, rgba(41,182,246,.22), transparent 70%),
+      linear-gradient(180deg,#12181F,#0E1216);
+    padding:54px 22px 92px; text-align:center; position:relative; border-bottom:1px solid var(--line);
+  }
+  .brand{
+    display:inline-block;margin-bottom:18px;font-size:12px;letter-spacing:1.4px;
+    text-transform:uppercase;color:var(--cyan);border:1px solid rgba(41,182,246,.4);
+    padding:5px 14px;border-radius:99px;
+  }
+  .icon{
+    width:104px;height:104px;border-radius:24px;margin:0 auto 18px;display:block;
+    box-shadow:0 14px 40px rgba(0,0,0,.5); border:1px solid var(--line);
+  }
+  .hero h1{margin:0 0 6px;font-size:38px;letter-spacing:1px;font-weight:800}
+  .hero h1 span{color:var(--cyan)}
+  .tag{margin:0;color:var(--muted);font-size:16px}
+  .wrap{max-width:680px;margin:0 auto;padding:0 22px 70px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:26px;margin-top:-52px;box-shadow:0 18px 44px rgba(0,0,0,.45);text-align:center;
+  }
+  .dl{
+    display:inline-flex;align-items:center;gap:10px;justify-content:center;
+    background:linear-gradient(135deg,#29B6F6,#0277BD);color:#04121c;text-decoration:none;
+    font-weight:800;font-size:18px;padding:16px 36px;border-radius:14px;
+    box-shadow:0 10px 26px rgba(41,182,246,.35); transition:transform .15s, box-shadow .15s;
+  }
+  .dl:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(41,182,246,.5)}
+  .meta{margin-top:12px;color:var(--muted);font-size:14px}
+  h2{font-size:19px;margin:36px 0 12px;letter-spacing:.2px}
+  h2::before{content:"";display:block;width:34px;height:3px;background:var(--cyan);border-radius:2px;margin-bottom:12px}
+  p{color:#C6D2DE}
+  .feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:4px}
+  .f{background:var(--bg2);border:1px solid var(--line);border-radius:13px;padding:16px}
+  .f b{display:block;margin-bottom:4px;color:#EAF1F8}
+  .f span{color:var(--muted);font-size:14.5px}
+  .steps{counter-reset:s;list-style:none;padding:0;margin:0}
+  .steps li{counter-increment:s;position:relative;padding:11px 0 11px 44px;border-bottom:1px solid var(--line);color:#C6D2DE}
+  .steps li:last-child{border-bottom:0}
+  .steps li::before{
+    content:counter(s);position:absolute;left:0;top:11px;width:28px;height:28px;border-radius:50%;
+    background:linear-gradient(135deg,#29B6F6,#0277BD);color:#04121c;font-size:14px;font-weight:800;
+    display:grid;place-items:center;
+  }
+  .note{
+    background:rgba(41,182,246,.08);border-left:3px solid var(--cyan);
+    padding:13px 16px;border-radius:0 10px 10px 0;font-size:15px;margin:14px 0;color:#C6D2DE;
+  }
+  footer{text-align:center;color:var(--muted);font-size:14px;padding:8px 22px 44px}
+  footer a{color:var(--cyan)}
+  a{color:var(--cyan)}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <span class="brand">HackTech Zone</span>
+  <img class="icon" src="icon.png" alt="SOTMS">
+  <h1>SOT<span>MS</span></h1>
+  <p class="tag">Smart Oil Transport Monitoring System</p>
+</div>
+
+<div class="wrap">
+
+  <div class="card">
+    <a class="dl" id="dl" href="SOTMS.apk" download>⬇&nbsp; Download for Android</a>
+    <div class="meta">APK · 56 MB · Android 7.0 and above</div>
+  </div>
+
+  <h2>What is SOTMS?</h2>
+  <p>
+    SOTMS is a fleet-intelligence platform built for oil and logistics operators. Track every
+    vehicle in real time, monitor engine and vehicle health, and keep a close eye on fuel usage and
+    driver behaviour — all from one dashboard, on your phone.
+  </p>
+
+  <div class="feat">
+    <div class="f"><b>📍 Live GPS Tracking</b><span>See every vehicle's exact location and route in real time.</span></div>
+    <div class="f"><b>🛠️ Vehicle Diagnostics</b><span>Monitor engine health and get alerts before problems grow.</span></div>
+    <div class="f"><b>⛽ Fuel Analytics</b><span>Track consumption and spot losses or irregular usage.</span></div>
+    <div class="f"><b>👤 Driver Insights</b><span>Understand driver behaviour and keep your fleet safe.</span></div>
+  </div>
+
+  <h2>How to install</h2>
+  <ol class="steps">
+    <li>Tap <b>Download for Android</b> above.</li>
+    <li>When the download finishes, open the file.</li>
+    <li>Android will ask permission to install from this source — tap <b>Settings</b>, turn it on, then go back.</li>
+    <li>Tap <b>Install</b>, then open SOTMS and sign in.</li>
+  </ol>
+
+  <div class="note">
+    <b>Seeing a warning?</b> Android shows a caution message for any app installed outside the
+    Play Store. SOTMS is safe — the app is digitally signed by HackTech Zone. Tap
+    <b>Install anyway</b> to continue.
+  </div>
+
+  <h2>Support</h2>
+  <p>
+    Questions? Contact <b>HackTech Zone</b> at
+    <a href="mailto:hello.theorbit@gmail.com">hello.theorbit@gmail.com</a>
+  </p>
+
+</div>
+
+<footer>
+  © 2026 HackTech Zone · SOTMS
+</footer>
+
+</body>
+</html>
